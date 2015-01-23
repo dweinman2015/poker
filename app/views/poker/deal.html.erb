@@ -1,0 +1,26 @@
+<h1>Welcome to the KIEI-925 Casino!</h1>
+
+<% 
+card_num = ["2","3","4","5","6","7","8","9","10","jack","queen","king","ace"]
+card_suit = ["diamonds","clubs","hearts","spades"]
+
+cardnum1 = card_num.sample
+cardsuit1 = card_suit.sample
+
+card1_source = "http://golearntocode.com/images/cards/"+card_num.sample+"_of_"+card_suit.sample+ ".png"
+
+card2_source = "http://golearntocode.com/images/cards/"+card_num.sample+"_of_"+card_suit.sample+ ".png"
+
+card3_source = "http://golearntocode.com/images/cards/"+card_num.sample+"_of_"+card_suit.sample+ ".png"
+
+card4_source = "http://golearntocode.com/images/cards/"+card_num.sample+"_of_"+card_suit.sample+ ".png"
+
+card5_source = "http://golearntocode.com/images/cards/"+card_num.sample+"_of_"+card_suit.sample+ ".png"
+
+%>
+
+<%= image_tag(card1_source)%>
+<%= image_tag(card2_source)%>
+<%= image_tag(card3_source)%>
+<%= image_tag(card4_source)%>
+<%= image_tag(card5_source)%>
